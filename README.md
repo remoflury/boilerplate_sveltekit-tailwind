@@ -1,38 +1,44 @@
-# create-svelte
+# First things first
+This is a boilerplate using sveltekit and tailwind with postcss as dependencies. Before you start, make sure you've installed node.js. Otherwise head to: https://nodejs.org
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# 1. Install Dependencies
+In your Terminal execute:
 
-## Creating a project
+``
+npm install
+``
 
-If you're seeing this, you've probably already done this step. Congrats!
+# 2. Start Development Server
+In your Terminal, go to your root directory of your project and execute:
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+``
 npm run dev
+``
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+# 3. Show live Server
+In your browser, open:
 
-To create a production version of your app:
+``
+http://localhost:3000/
 
-```bash
+``
+
+# 4. Start Coding
+Develop your App
+
+# 5. Build your final app
+If your Development is finished, execute this line in your terminal (in root directory of project) to clean build your project
+
+``
 npm run build
-```
+``
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Preview it with
+
+``
+npm run preview
+``
+
+And visit your built site under http://localhost:3000/
