@@ -21,7 +21,6 @@ In your browser, open:
 
 ``
 http://localhost:3000/
-
 ``
 
 # 4. Start Coding
