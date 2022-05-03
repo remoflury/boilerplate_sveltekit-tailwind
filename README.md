@@ -2,14 +2,14 @@
 This is a boilerplate using sveltekit and tailwind with postcss as dependencies. Before you start, make sure you've installed node.js. Otherwise head to: https://nodejs.org
 
 # 1. Install Dependencies
-In your Terminal execute:
+In your Terminal, go to your root directory of your project and execute:
 
 ``
 npm install
 ``
 
 # 2. Start Development Server
-In your Terminal, go to your root directory of your project and execute:
+In your Terminal execute:
 
 ``
 npm run dev
